@@ -20,7 +20,6 @@
 	<!-- ________________________________________Search bar_________________________________________________ -->
 	<div class="srch">
 		<form class="navbar-form" method="post" name="form1">
-			
 				<input class="form-control" type="text" name="search" placeholder="search books..." required>
 				<button style="background-color:#3377b7 " type="submit" name="submit" class="btn btn-default">
 					<span class="glyphicon glyphicon-search"></span>
@@ -29,6 +28,7 @@
 		</form>
 	</div>
 	<h2>List Of Books</h2>
+	<!-- ________________________________________Search bar php working_________________________________________________ -->
 	<?php
 
 	    if (isset($_POST['submit']))
